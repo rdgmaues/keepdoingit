@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/rule_images_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dip"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/rule_images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/rule_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/rule_and_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:src="@drawable/ic_rule_and"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_condition_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_and_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:src="@drawable/ic_rule_and"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_condition_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_and_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:src="@drawable/ic_rule_and"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_condition_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_then"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:src="@drawable/ic_rule_then"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/rule_action_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_and_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:src="@drawable/ic_rule_and"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_action_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_and_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:src="@drawable/ic_rule_and"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/rule_action_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:minHeight="48dip"
+                android:minWidth="48dip"
+                android:scaleType="center"
+                android:visibility="gone" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/rule_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dip"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip"
+        android:paddingTop="0dip"
+        android:textColor="#666"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#ccc" />
+
+</LinearLayout>

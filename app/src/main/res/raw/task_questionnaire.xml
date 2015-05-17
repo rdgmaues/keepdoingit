@@ -1,0 +1,15 @@
+<questions>
+	<question
+		text="Você acredita que as instruções dadas para realizar a tarefa foram claras?">
+		<option>Sim</option>
+		<option>Não</option>
+		<option>Parcialmente</option>
+	</question>
+	<question
+		text="O quanto de esforço você sente ter sido necessário para realizar esta tarefa?">
+		<option>Grande esforço</option>
+		<option>Médio esforço</option>
+		<option>Pouco esforço</option>
+		<option>Nenhum esforço</option>
+	</question>
+</questions>

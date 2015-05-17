@@ -1,0 +1,128 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+        <item name="android:windowBackground">@drawable/window_background</item>
+
+        <!--  -->
+        <item name="android:spinnerStyle">@style/Spinner</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerItem.DropDownItem</item>
+
+        <!--  -->
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:listViewStyle">@style/ListView</item>
+
+        <!-- Button styles -->
+        <item name="android:buttonStyle">@style/Button.Borderless</item>
+        <item name="android:buttonStyleSmall">@style/Button.Small</item>
+        <item name="android:buttonStyleInset">@style/Button.Inset</item>
+        <item name="android:imageButtonStyle">@style/ImageButton</item>
+    </style>
+
+    <style name="SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+    </style>
+
+    <style name="SpinnerItem.DropDownItem" parent="@android:style/Widget.DropDownItem.Spinner">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+    
+
+    <style name="Spinner">
+
+        <!-- <item name="android:background">@drawable/spinner_background_holo_light</item> -->
+        <item name="android:dropDownSelector">@drawable/list_selector_holo_light</item>
+        <!-- <item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_light</item> -->
+        <item name="android:dropDownWidth">wrap_content</item>
+        <!--
+        <item name="android:background">@drawable/spinner_background_holo_dark</item>
+        <item name="android:clickable">true</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_dark</item>
+        <item name="spinnerMode">dropdown</item>
+        -->
+    </style>
+
+    <!-- Variation on the Light theme to simulate the Holo theme -->
+    <style name="AppTheme2" parent="android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/window_background</item>
+        <item name="android:listViewStyle">@style/ListView</item>
+        <item name="android:buttonStyle">@style/Button.Borderless</item>
+        <item name="android:buttonStyleSmall">@style/Button.Small</item>
+        <item name="android:buttonStyleInset">@style/Button.Inset</item>
+        <item name="android:imageButtonStyle">@style/ImageButton</item>
+    </style>
+
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <!-- <item name="android:background">@drawable/edit_text_holo_light</item> -->
+        <!--
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">11dip</item>
+        -->
+    </style>
+
+    <!-- List style -->
+    <style name="ListView" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/list_selector_holo_light</item>
+        <item name="android:divider">@color/transparent</item>
+        <item name="android:dividerHeight">8dp</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+    </style>
+
+    <style name="Button.Borderless">
+        <item name="android:background">@drawable/item_background_holo_light</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingRight">4dip</item>
+    </style>
+
+    <style name="Button.Small">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">48dip</item>
+    </style>
+
+    <style name="Button.Inset"></style>
+
+    <style name="ImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@drawable/item_background_holo_light</item>
+    </style>
+
+</resources>

@@ -1,0 +1,54 @@
+<questions>
+	<question text="Eu aprendi facilmente a usar esta técnica.">
+		<option>Discordo totalmente</option>
+		<option>Discordo parcialmente</option>
+		<option>Indiferente</option>
+		<option>Concordo parcialmente</option>
+		<option>Concordo totalmente</option>
+	</question>
+	<question
+		text="Eu acredito que a maioria das pessoas aprenderia a usar esta técnica rapidamente.">
+		<option>Discordo totalmente</option>
+		<option>Discordo parcialmente</option>
+		<option>Indiferente</option>
+		<option>Concordo parcialmente</option>
+		<option>Concordo totalmente</option>
+	</question>
+	<question text="Eu acredito que esta técnica é fácil de usar.">
+		<option>Discordo totalmente</option>
+		<option>Discordo parcialmente</option>
+		<option>Indiferente</option>
+		<option>Concordo parcialmente</option>
+		<option>Concordo totalmente</option>
+	</question>
+	<question
+		text="Qual posição do dispositivo você acredita que foi a mais adequada para realizar as tarefas com esta técnica?">
+		<option>Vertical</option>
+		<option>Horizontal</option>
+		<option>Indiferente</option>
+	</question>
+	<question
+		text="Como você se sentiu usando esta técnica para realizar estas tarefas?">
+		<option>Muito satisfeito</option>
+		<option>Satisfeito</option>
+		<option>Indiferente</option>
+		<option>Insatisfeito</option>
+		<option>Muito Insatisfeito</option>
+	</question>
+	<question
+		text="Como você classificaria esta técnica?">
+		<option>Ótima</option>
+		<option>Boa</option>
+		<option>Regular</option>
+		<option>Ruim</option>
+		<option>Péssima</option>
+	</question>
+	<question
+		text="Eu acredito que usaria esta técnica freqüentemente para navegar em mapas digitais.">
+		<option>Discordo totalmente</option>
+		<option>Discordo parcialmente</option>
+		<option>Indiferente</option>
+		<option>Concordo parcialmente</option>
+		<option>Concordo totalmente</option>
+	</question>
+</questions>

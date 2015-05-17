@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1"
+
+    defaultConfig {
+        applicationId "com.rm.keepdoingit"
+        minSdkVersion 9
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/aws-android-sdk-1.6.1-core.jar')
+    compile files('libs/aws-android-sdk-1.6.1-s3.jar')
+    compile files('libs/core.jar')
+    compile files('libs/newrelic.android.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile 'com.google.android.gms:play-services:7.3.0'
+    compile "com.android.support:support-v4:19.+"
+    compile 'com.android.support:appcompat-v7:19.+'
+}

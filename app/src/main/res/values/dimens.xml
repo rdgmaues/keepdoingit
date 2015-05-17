@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- UI elements -->
+    <!-- <dimen name="colorstrip_height">6dp</dimen> -->
+    <dimen name="actionbar_compat_height">48dp</dimen>
+
+    <!-- body content -->
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+
+    <!-- Dialog title height -->
+    <dimen name="alert_dialog_title_height">64dip</dimen>
+    <!-- Dialog button bar height -->
+    <dimen name="alert_dialog_button_bar_height">48dip</dimen>
+
+    <!-- Default height of an action bar. -->
+    <dimen name="action_bar_default_height">48dip</dimen>
+    <!-- Vertical padding around action bar icons. -->
+    <dimen name="action_bar_icon_vertical_padding">8dip</dimen>
+    <!-- Text size for action bar titles -->
+    <dimen name="action_bar_title_text_size">18dp</dimen>
+    <!-- Text size for action bar subtitles -->
+    <dimen name="action_bar_subtitle_text_size">14dp</dimen>
+    <!-- Top margin for action bar subtitles -->
+    <dimen name="action_bar_subtitle_top_margin">-3dp</dimen>
+    <!-- Bottom margin for action bar subtitles -->
+    <dimen name="action_bar_subtitle_bottom_margin">5dip</dimen>
+
+    
+    <item name="dialog_min_width_major" type="dimen">65%</item>
+	<item name="dialog_min_width_minor" type="dimen">95%</item>
+</resources>

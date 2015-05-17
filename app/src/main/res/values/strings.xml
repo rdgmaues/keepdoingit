@@ -1,0 +1,181 @@
+<resources>
+
+    <string name="participants">Participantes</string>
+    <string name="add_participant">Adicionar Participante</string>
+    <string name="edit_participant">Editar Participante</string>
+    <string name="delete_participant">Deletar Participante</string>
+    <string name="participantdetails_header">Preencha os dados abaixo:</string>
+    <string name="participant_name">Nome do participante</string>
+    <string name="participant_age">Idade</string>
+    <string name="gender">Escolha um sexo</string>
+    <string name="hand">Escolha uma mão</string>
+    <string name="device">Selecione dispositivo</string>
+    <string name="experience">Selecione sua experiência</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="techniques">Técnicas</string>
+    <string name="techniques_header">Selecione uma das técnicas abaixo para começar a testar.</string>
+    <string name="configure_tasks">Configurar Tarefas</string>
+    <string name="tasks">Tarefas</string>
+    <string name="task">Tarefa</string>
+    <string name="start">Iniciar</string>
+    <string name="about_task">Sobre a Tarefa</string>
+    <string name="ok">OK</string>
+    <string name="finish_task">Finalizar Tarefa</string>
+    <string name="are_you_sure_finish_task">Você tem certeza que deseja finalizar esta tarefa?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="end_of_tasks">Fim das tarefas</string>
+    <string name="thank_you">Obrigado por participar na avaliação desta técnica!</string>
+    <string name="achieved">encontrado(a)</string>
+    <string name="delete_anchor">Deletar âncora</string>
+    <string name="are_you_sure_delete_anchor">Você tem certeza que deseja deletar esta âncora?
+		Uma nova âncora será automaticamente escolhida após esta ser deletada.</string>
+    <string name="cant_zoom_in">Não há mais níveis de zoom disponíveis</string>
+    <string name="cant_delete">Você não pode ficar sem âncoras. Crie ao menos um
+		marcador antes de deletar esta.</string>
+    <string name="back">Voltar</string>
+    <string name="next">Próxima</string>
+    <string name="finish">Finalizar</string>
+
+    <string-array name="genders_array">
+        <item>Homem</item>
+        <item>Mulher</item>
+    </string-array>
+    <string-array name="devices_array">
+        <item>Possui Nenhum</item>
+        <item>Possui um smartphone</item>
+        <item>Possui um tablet</item>
+        <item>Possui Ambos</item>
+    </string-array>
+    <string-array name="experience_array">
+        <item>Nunca participou de uma avaliação</item>
+        <item>Já participou de uma avaliação</item>
+    </string-array>
+
+    <!--  -->
+
+    <string name="app_name">Keep Doing It</string>
+    <string name="menu_settings">Settings</string>
+    <string name="event">TRIGGERING EVENT</string>
+    <string name="conditions">CONDITIONS</string>
+    <string name="actions">ACTIONS</string>
+    <string name="add_event">Add an event (required)</string>
+    <string name="add_condition">Add a condition</string>
+    <string name="add_action_1">Add an action (required)</string>
+    <string name="add_action_2">Add an action</string>
+    <string name="empty_recommendations_list">Sorry, but we couldn\&apos;t detect any automation rule. Try to change the time window above or do a new action on your smartphone now.</string>
+    <string name="empty_myrules_list">Click above to start creating your automation rules.</string>
+    <string name="description_logo">Keep Doing It</string>
+    <string name="description_new">New rule</string>
+    <string name="description_settings">Settings</string>
+    <string name="description_upload">Upload log and answers</string>
+    <string name="description_refresh">Refresh</string>
+    <string name="description_save">Save rule</string>
+    <string name="delete">Delete</string>
+    <string name="turnoff">Turn OFF</string>
+    <string name="turnon">Turn ON</string>
+    <!-- Done bar strings -->
+    <string name="done">Done</string>
+
+    <string-array name="time_window_array">
+        <item>From 15 seconds ago</item>
+        <item>From 30 seconds ago</item>
+        <item>From 45 seconds ago</item>
+        <item>From 1 minute ago</item>
+    </string-array>
+    <string-array name="event_array">
+        <item>Airplane Mode</item>
+        <item>Battery Level</item>
+        <item>Battery Charging Status</item>
+        <item>Bluetooth State</item>
+        <item>Headset Connection</item>
+        <item>Location</item>
+        <item>Ringer Mode</item>
+        <item>Time</item>
+        <item>Unlock Screen</item>
+        <item>Wi-Fi State</item>
+    </string-array>
+    <string-array name="condition_array">
+        <item>Airplane Mode</item>
+        <item>Battery Level</item>
+        <item>Battery Charging Status</item>
+        <item>Bluetooth State</item>
+        <item>Headset Connection</item>
+        <item>Location</item>
+        <item>Ringer Mode</item>
+        <item>Time</item>
+        <item>Unlock Screen</item>
+        <item>Wi-Fi State</item>
+    </string-array>
+    <string-array name="action_array">
+        <item>Airplane Mode</item>
+        <item>Application Launch</item>
+        <item>Bluetooth State</item>
+        <item>Ringer Mode</item>
+        <item>Wi-Fi State</item>
+    </string-array>
+
+    <!-- Template messages -->
+    <!--  -->
+    <string name="ringer_event_message">When I set the ringer to &lt;b>%1$s&lt;/b></string>
+    <string name="ringer_condition_message">the ringer is set to &lt;b>%1$s&lt;/b></string>
+    <string name="ringer_action_message">set the ringer to &lt;b>%1$s&lt;/b></string>
+    <!--  -->
+    <string name="app_action_message">launch the &lt;b>%1$s&lt;/b> application</string>
+    <!--  -->
+    <string name="headset_event_message">When a wired headset is &lt;b>%1$s&lt;/b></string>
+    <string name="headset_condition_message">a wired headset is &lt;b>%1$s&lt;/b></string>
+    <!--  -->
+    <string name="wifi_event_message">When the Wi-Fi is turned &lt;b>%1$s&lt;/b></string>
+    <string name="wifi_condition_message">the WiFi is turned &lt;b>%1$s&lt;/b></string>
+    <string name="wifi_action_message">turn the Wi-Fi &lt;b>%1$s&lt;/b></string>
+    <!--  -->
+    <string name="bluetooth_action_message">turn the Bluetooth &lt;b>%1$s&lt;/b></string>
+    <!--  -->
+    <string name="outgoingcall_event_message">"When I call &lt;b>%1$s&lt;/b>"</string>
+    <string name="outgoingcall_condition_message">"I'm on a phone call"</string>
+    <string name="outgoingcall_action_message">"call &lt;b>%1$s&lt;/b>"</string>
+    <!--  -->
+    <string name="charging_event_message">"When my phone's battery &lt;b>%1$s&lt;/b>"</string>
+    <string name="charging_condition_message">"my phone's battery is &lt;b>%1$s&lt;/b>"</string>
+    <!--  -->
+    <string name="screen_event_message_1">"When I &lt;b>%1$s&lt;/b> my phone's screen"</string>
+    <string name="screen_event_message_2">"When my phone's screen is turned &lt;b>%1$s&lt;/b>"</string>
+    <string name="screen_condition_message_1">"my phone's screen is &lt;b>%1$s&lt;/b>"</string>
+    <string name="screen_condition_message_2">"my phone's screen is &lt;b>%1$s&lt;/b></string>
+    <!--  -->
+    <string name="battery_event_message">"When my phone's battery &lt;b>%1$s&lt;/b>"</string>
+    <string name="battery_condition_message">"my phone's battery &lt;b>%1$s&lt;/b>"</string>
+    <!--  -->
+    <string name="location_event_message">When I arrive near &lt;b>%1$s&lt;/b></string>
+    <string name="location_condition_message">I am near &lt;b>%1$s&lt;/b></string>
+    <!--  -->
+    <string name="time_event_message">At &lt;b>%1$s&lt;/b></string>
+    <string name="time_condition_message">it is &lt;b>%1$s&lt;/b></string>
+    
+    <!--  -->
+    <string-array name="questions_array">
+        <item>I understood why these rules were recommended to me.</item>
+        <item>Comparing the recommendations was very easy.</item>
+        <item>The task of making a decision was overwhelming.</item>
+        <item>I liked the rules recommended by the app.</item>
+        <item>The rules recommended to me were relevant.</item>
+        <item>The app showed:</item>
+        <item>Did the app recommend the rule you were expecting?</item>
+    </string-array>
+    <!--  -->
+    <string-array name="agreement_array">
+        <item>Strongly disagree</item>
+        <item>Disagree</item>
+        <item>Neither agree nor disagree</item>
+        <item>Agree</item>
+        <item>Strongly agree</item>
+    </string-array>
+    <string-array name="question_6_array">
+        <item>Too few recommendations</item>
+        <item>A reasonable number of recommendations</item>
+        <item>Too many recommendations</item>
+    </string-array>
+
+</resources>
